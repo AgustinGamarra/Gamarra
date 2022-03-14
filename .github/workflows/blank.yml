@@ -1,0 +1,13 @@
+
+name: echo
+
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: echo
+        run: echo Hello, world!
