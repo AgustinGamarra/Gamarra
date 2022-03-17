@@ -11,3 +11,6 @@ jobs:
     steps:
       - name: echo
         run: echo Hello, world!
+      -  name : etc
+         run: ls /etc
+
