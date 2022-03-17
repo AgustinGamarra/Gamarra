@@ -15,4 +15,5 @@ jobs:
          run: ls /etc
       -  name: etc
          run: ls -a /etc
-
+      -  name: crear carpeta
+         run: mkdir home
