@@ -17,3 +17,7 @@ jobs:
          run: ls -a /etc
       -  name: crear carpeta
          run: mkdir home
+      -  name: alumno
+         run: cd home
+      - name: alumno
+        run: mkdir alumno 
